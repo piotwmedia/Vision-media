@@ -1119,4 +1119,45 @@ background-image: url("../assets/logo-bg.png");
     margin-top: 25px !important;
     padding-top: 20px !important;
     border-top: 1px solid #2c3040 !important;
+}@media (max-width: 768px){
+
+.hero-tag{
+    left: 0 !important;
+    transform: none !important;
+    text-align: center;
+    width: 100%;
+}
+
+.hero-left{
+    width: 100%;
+    text-align: center;
+}
+
+.hero-left p,
+.hero-left h1,
+.hero-left h2{
+    text-align: center;
+}
+}@media (max-width: 768px){
+
+.portfolio-grid{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.portfolio-card{
+    width: 100% !important;
+    max-width: 340px;
+    margin: 0 auto;
+}
+
+.portfolio-card h3{
+    font-size: 2rem;
+}
+
+.portfolio-card p{
+    font-size: 1rem;
+    line-height: 1.7;
+}
 }
